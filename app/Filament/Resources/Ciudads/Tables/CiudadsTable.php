@@ -16,7 +16,7 @@ class CiudadsTable
         return $table
             ->columns([
                 TextColumn::make('nombre')
-                ->label('Nombres personalizados')
+                ->label('Nombres de Pueblos')
                 ->searchable(),
             ])
             ->filters([
