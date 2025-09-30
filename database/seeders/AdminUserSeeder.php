@@ -14,9 +14,9 @@ class AdminUserSeeder extends Seeder
     public function run(): void
     {
         User::firstOrCreate(
-            ['email' => 'admin@inmorovira.com'], // evita duplicados si ya existe
+            ['email' => 'feliortz361@gmail.com'], // evita duplicados si ya existe
             [
-                'name' => 'Andrey',
+                'name' => 'Mil yang',
                 'password' => Hash::make('password'), 
             ]
         );
